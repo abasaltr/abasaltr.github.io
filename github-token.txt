@@ -1,0 +1,33 @@
+TOKEN - "b31197334c6477de7b96adcb2a7e55bf6d890164"
+
+curl https://api.github.com/repos/abasaltr/Airbnb_Dashboard/deployments
+
+302203976
+302184184
+302161902
+302143302
+301917739
+301917314
+301916553
+301863704
+301862562
+301847540
+301839517
+301838345
+
+curl https://api.github.com/repos/abasaltr/Airbnb_Dashboard/deployments/301838345/statuses -X POST -d '{"state":"inactive"}' -H 'accept: application/vnd.github.ant-man-preview+json' -H "authorization: token b31197334c6477de7b96adcb2a7e55bf6d890164"
+
+curl https://api.github.com/repos/abasaltr/Airbnb_Dashboard/deployments/301838345 -X DELETE -H "authorization: token b31197334c6477de7b96adcb2a7e55bf6d890164"
+
+
+
+
+
+
+
+
+
+
+
+
+
